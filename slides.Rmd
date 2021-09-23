@@ -1,0 +1,241 @@
+---
+title: "Explorando el poder de la Bioinformática"
+author: "Joselyn Chávez <br> <br>@josschavezf1 <br> josschavezf.github.io"
+date: "23 de septiembre de 2021"
+output:
+  xaringan::moon_reader:
+    css: ["upiig.css"]
+    self_contained: true
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+---
+
+# Un poco sobre mí
+
+```{r,echo=FALSE,out.width='88%',fig.align='center'}
+knitr::include_graphics("img/aboutme.png")
+```
+
+---
+
+# ¿Qué es la Bioinformática?
+
+[
+```{r,echo=FALSE,out.width='70%',fig.align='center'}
+knitr::include_graphics("img/bioinformatica.png")
+```
+](http://fisiolofar.blogspot.com/2013/09/el-fascinante-mundo-de-la-bioinformatica.html)
+
+---
+class: chapter-slide
+
+# ¿Para qué nos sirve la Bioinformática?
+
+---
+# Conocer las secuencias de los genes
+<br>
+
+.pull-left[
+.pull-left[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/samples.png")
+```
+
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/sequencemachine.png")
+```
+]
+.pull-right[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/microscope.png")
+```
+
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/dna.png")
+```
+]
+]
+
+--
+
+.pull-right[<br>
+```{r,echo=FALSE,out.width='60%',fig.align='center'}
+knitr::include_graphics("img/human.png")
+```
+]
+
+---
+# Armar el rompecabezas de nuevos genomas
+<br>
+
+.pull-left[
+.pull-left[<br>
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/sequencemachine.png")
+```
+
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/book.jpg")
+```
+]
+
+.pull-right[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/dna.png")
+```
+
+```{r,echo=FALSE,out.width='80%',fig.align='center'}
+knitr::include_graphics("img/book2.png")
+```
+]
+]
+
+--
+
+.pull-right[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/humangenome.png")
+```
+
+.pull-left[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/cigom.png")
+```
+]
+.pull-right[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/cigom2.png")
+```
+]
+]
+
+---
+# Generar bases de datos
+<br>
+
+.pull-left[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/library.jpg")
+```
+]
+
+--
+.pull-right[
+```{r,echo=FALSE,out.width='110%'}
+knitr::include_graphics("img/ncbi.png")
+```
+]
+
+---
+# Estudiar la regulación de los genes
+<br>
+
+.pull-left[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/diferentiation.png")
+```
+]
+
+--
+
+.pull-right[<br><br>
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/onoff.png")
+```
+]
+
+---
+# Estudiar la regulación de los genes
+<br>
+
+.pull-left[
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/orquesta.jpg")
+```
+]
+
+--
+
+.pull-right[
+[
+```{r,echo=FALSE,out.width='110%'}
+knitr::include_graphics("img/generegulation.png")
+```
+](https://www.youtube.com/watch?v=h_1QLdtF8d0)
+]
+
+---
+# Conocer cuánto se encienden o apagan los genes 
+
+.pull-left[
+```{r,echo=FALSE,out.width='50%',fig.align='center'}
+knitr::include_graphics("img/led.png")
+```
+]
+
+--
+
+.pull-right[
+```{r,echo=FALSE,out.width='78%',fig.align='center'}
+knitr::include_graphics("img/heatmap.png")
+```
+]
+
+---
+# Reconstruir la evolución de las especies
+
+.pull-left[
+```{r,echo=FALSE,out.width='75%',fig.align='center'}
+knitr::include_graphics("img/tree.jpg")
+```
+]
+
+.pull-right[<br><br><br<br><br><br>
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics("img/alignment.png")
+```
+]
+
+---
+# Estudiar la estructura de las proteínas
+
+.pull-left[
+```{r,echo=FALSE, out.width='100%',fig.align='center'}
+knitr::include_graphics("img/proteinstructure.png")
+```
+
+```{r,echo=FALSE, out.width='80%',fig.align='center'}
+knitr::include_graphics("img/proteininteraction.jpg")
+```
+]
+
+.pull-right[
+```{r,echo=FALSE, out.width='70%',fig.align='center'}
+knitr::include_graphics("img/proteindna.png")
+```
+]
+
+---
+class: chapter-slide
+# ¿Cuáles son las herramientas que utilizamos? 
+
+---
+# Existe una gran diversidad de lenguajes de programación
+
+```{r,echo=FALSE, out.width='70%',fig.align='center'}
+knitr::include_graphics("img/languages.png")
+```
+
+En R existen > 2000 programas enfocados a análisis biológicos.
+
+---
+# Las herramientas bioinformáticas están en constante desarrollo
+
+```{r,echo=FALSE, out.width='100%',fig.align='center'}
+knitr::include_graphics("img/regutools.png")
+```
+.center[ <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7575047/> ]
+
+
+
